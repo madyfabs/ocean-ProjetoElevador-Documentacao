@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"><b>Documentação Projeto Elevador</b></h1>
+    <br />
+    <br />
+    <h2 class="display-4"><b>Iniciando o Programa</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">O programa inicia na tela de inserção, onde o usuário deverá colocar a capacidade máxima do elevador e a quantidade de andares do prédio
+       conforme a figura abaixo:    
+    </p>
+    <br />
+    <img src="/Images/Tela01 - Capacidade & Andares.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <h2 class="display-4"><b>Menu Interativo</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após o usuário inserir a capacidade máxima do elevador e a quantidade de andares, o mesmo chegará ao menu interativo principal. Neste menu, o
+        usuário poderá escolher, a cada vez, 1 (uma) opção dentre as 5 (cinco) que lhe são exibidas. A figura abaixo, detalha as opções que o usuário poderá escolher.
+    </p>
+    <br />
+    <img src="/Images/Tela02 - Menu Interativo.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">Vale informar que, a cada inserção de opção, a tela será limpa. Assim, é possível manter uma clareza maior ao usuário que sempre estará vendo a sua interação mais recente.
+    </p>
+    <br />
+    <br />
+     <h2 class="display-4"><b>Opção 1 - Entrar no Elevador</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após a seleção da opção 1 - Entrar no Elevador, é acrescido no mesmo 1 (uma) pessoa, desde que o elevador não tenha atingido sua capacidade máxima no momento dessa inserção. A figura abaixo exibe a tela após a escolha da opção 1:
+    </p>
+    <br />
+    <img src="/Images/Tela03 - Opcao 01.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">É possível perceber também que, após a opção selecionada ser efetivada, uma mensagem informando qual opção o usuário escolheu, neste caso a imagem mostra a mensagem "Você escolheu: Entrar". Caso não fosse possível efetivar a operação (entrar uma pessoa no elevador)
+        uma mensagem apareceria logo abaixo desta, dizendo "Não é possível entar. Elevador está cheio!", melhorando a interação com o usuário.
+    </p>
+    <br />
+    <br />
+     <h2 class="display-4"><b>Opção 2 - Sair do Elevador</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após a seleção da opção 2 - Sair do Elevador, é retirado do mesmo 1 (uma) pessoa, desde que o elevador não esteja vazio no momento dessa remoção. A figura abaixo exibe a tela após a escolha da opção 2:
+    </p>
+    <br />
+    <img src="/Images/Tela04 - Opcao 02.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">É possível perceber também que, após a opção selecionada ser efetivada, uma mensagem informando qual opção o usuário escolheu assim como na opção anterior, neste caso a imagem mostra a mensagem "Você escolheu: Sair". Caso não fosse possível efetivar a operação (remover uma pessoa do elevador)
+        uma mensagem apareceria logo abaixo desta, dizendo "Não é possível sair. Elevador está vazio!", melhorando a interação com o usuário.
+    </p>
+    <br />
+    <br />
+     <h2 class="display-4"><b>Opção 3 - Subir Andar</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após a seleção da opção 3 - Subir Andar, o elevador sobe 1 (um) andar, desde que o elevador não esteja no andar máximo que fora informado pelo usuário na inicialização. A figura abaixo exibe a tela após a escolha da opção 3:
+    </p>
+    <br />
+    <img src="/Images/Tela05 - Opcao 03.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">É possível perceber também que, após a opção selecionada ser efetivada, uma mensagem informando qual opção o usuário escolheu assim como na opção anterior, neste caso a imagem mostra a mensagem "Você escolheu: Subir". Caso não fosse possível efetivar a operação (subir o elevador 1 (um) andar)
+        uma mensagem apareceria logo abaixo desta, dizendo "Não é possível subir outro andar. Elevador já está no topo do prédio!", melhorando a interação com o usuário.
+    </p>
+    <br />
+    <br />
+     <h2 class="display-4"><b>Opção 4 - Descer Andar</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após a seleção da opção 4 - Descer Andar, o elevador desce 1 (um) andar, desde que o elevador não esteja no andar mínimo (térreo). A figura abaixo exibe a tela após a escolha da opção 4:
+    </p>
+    <br />
+    <img src="/Images/Tela06 - Opcao 04.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">É possível perceber também que, após a opção selecionada ser efetivada, uma mensagem informando qual opção o usuário escolheu assim como na opção anterior, neste caso a imagem mostra a mensagem "Você escolheu: Descer". Caso não fosse possível efetivar a operação (Descer o elevador 1 (um) andar)
+        uma mensagem apareceria logo abaixo desta, dizendo "Não é possível descer outro andar. Elevador já está no térreo do prédio!", melhorando a interação com o usuário.
+    </p>
+    <br />
+    <br />
+     <h2 class="display-4"><b>Opção 5 - Finalizar Programa</b></h2>
+    <br />
+    <br />
+    <p style= "text-align: justify;">Após a seleção da opção 5 - Finalizar Programa, a tela é limpa e é exibida uma mensagem com as informações finais de como o elevador ficou antes de ser encerrado o programa. A figura abaixo exibe a tela após a escolha da opção 5:
+    </p>
+    <br />
+    <img src="/Images/Tela07 - Opcao 05.jpg" asp-append-version="true">
+    <br />
+    <br />
+    <p style= "text-align: justify;">Neste exemplo, a mensagem de saída ficou como: "O Elevador do prédio de 10 andar/andares, com capacidade para 5 pessoas, finalizou no andar de número 0 e com 0 pessoa/pessoas dentro!" lembrando que, o andar 0 é o Térreo.
+    </p>
+    <br />
+    <br />
+    <p><b>Link do Projeto:</b> <a href="https://docs.microsoft.com/aspnet/core">Github</a>.</p>
+    <br />
+    <p><b>Link da Documentação:</b> <a href="https://docs.microsoft.com/aspnet/core">Github</a>.</p>
+</div>
+
+
